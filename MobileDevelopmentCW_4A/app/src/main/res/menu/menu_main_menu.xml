@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chaos.mobiledevelopmentcw_4a.MainMenu">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_about" />
+    <item android:id="@+id/mBio"
+        android:icon="@drawable/ic_action_trend"
+        android:title="@string/mBio"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>

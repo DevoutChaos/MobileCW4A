@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/addCombatant">
+
+        <Button
+            android:id="@+id/butConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Combatant"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/butCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/butConfirm" />
+
+        <TextView
+            android:id="@+id/textInitiative"
+            android:text="Initiative: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:paddingTop="20dp"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:layout_below="@+id/txtName" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="Name: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:maxLength="25"
+            android:layout_alignBaseline="@+id/txtName"
+            android:layout_alignBottom="@+id/txtName"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textInitiative" />
+
+        <EditText
+            android:id="@+id/editInitiative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:paddingTop="20dp"
+            android:text="1"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLength="2"
+            android:layout_alignBaseline="@+id/textInitiative"
+            android:layout_alignBottom="@+id/textInitiative"
+            android:layout_toEndOf="@+id/textInitiative" />
+    </RelativeLayout>
+
+</LinearLayout>

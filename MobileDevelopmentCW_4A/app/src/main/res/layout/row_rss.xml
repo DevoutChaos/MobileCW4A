@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtVwTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtVwDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVwTitle"
+        android:paddingLeft="5dp"
+        android:textSize="18sp" />
+
+
+    <!--/**
+        * Created by chaos_000 on 25/02/2016.
+        * Liam Faulds S1306716
+        *
+        * Tutorials Used:
+        * http://www.tutorialspoint.com/android/android_xml_parsers.htm
+        *  ^ First Accessed 18/02/2016, used as an initial guide to parsing
+        * http://www.technotalkative.com/android-listview-2-custom-listview/
+        *  ^ First Accessed 24/02/2016, used to group a pair of TextViews into a ListView
+        */-->
+</RelativeLayout>
