@@ -311,7 +311,7 @@ public class MainMenu extends AppCompatActivity{
             }
         });
 
-        /*** Return to Initiative Order - adding the combatant in the process ***/
+        /*** Return to DB - adding the combatant in the process ***/
         but17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -338,6 +338,7 @@ public class MainMenu extends AppCompatActivity{
             }
         });
 
+        /*** Return to DB - without adding the combatant in the process ***/
         but18.setOnClickListener(new View.OnClickListener()
         {
             @Override
